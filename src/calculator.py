@@ -2,6 +2,16 @@ def add(a, b):
     # Intentional: no type hints, no docstring
     return a + b
 
+def multiply(a, b):
+    return a * b
+
+def average(numbers):
+    return sum(numbers) / len(numbers)
+
+def bad_indent():
+  x = 5
+    return x
+
 def divide(a, b):
     # Intentional bug: no zero division handling
     return a / b

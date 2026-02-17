@@ -1,0 +1,8 @@
+coderabbit-test-repo/
+├── src/
+│   ├── calculator.py
+│   └── utils.py
+├── tests/
+│   └── test_calculator.py
+├── README.md
+└── requirements.txt

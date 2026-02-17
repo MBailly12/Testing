@@ -1,0 +1,17 @@
+API_KEY = "12345"  # hardcoded secret
+
+def process(data=[]):  # mutable default
+    temp = 10  # unused variable
+    for i in range(len(data)):
+        print(i, data[i])
+
+def divide(a, b):
+    return a / b  # no zero check
+
+def is_even(n):
+    if n % 2 == 1:  # wrong logic
+        return True
+    return False
+
+def long_line():
+    print("This is a very very very very very very very very long line that should trigger a style warning")

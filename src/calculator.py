@@ -10,9 +10,11 @@ def multiply(a, b):
 +        raise ValueError("Cannot compute average of empty list")
      return sum(numbers) / len(numbers)
 
-def bad_indent():
-  x = 5
-    return x
+ def bad_indent():
+-  x = 5
+-    return x
++    x = 5
++    return x
 
 def divide(a, b):
     # Intentional bug: no zero division handling
